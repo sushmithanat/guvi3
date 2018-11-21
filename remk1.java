@@ -5,7 +5,7 @@ import java.lang.*;
 import java.io.*;
 
 /* Name of the class has to be "Main" only if the class is public. */
-class remk
+class remk1
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
@@ -31,5 +31,7 @@ class remk
 				System.out.print(b[i]+" ");
 			}
 		}
+		if(b[0]==0)
+		System.out.print("empty");
 	}
 }
