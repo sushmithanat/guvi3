@@ -5,7 +5,7 @@ import java.lang.*;
 import java.io.*;
 
 /* Name of the class has to be "Main" only if the class is public. */
-class chard
+class chardu
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
@@ -25,11 +25,11 @@ class chard
 			if(s1.charAt(i)==s2.charAt(i))
 			tmp++;
 			if(tmp==n)
-			System.out.print("yes");
+			System.out.print("YES");
 			else
-			System.out.print("no");
+			System.out.print("NO");
 		}
 		else
-		System.out.print("no");
+		System.out.print("NO");
 	}
 }
